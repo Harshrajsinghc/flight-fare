@@ -2,7 +2,6 @@ import pickle
 from flask import Flask,request,render_template
 import numpy as np
 import pandas as pd
-from flask_cors import cross_origin
 import sklearn
 
 app = Flask(__name__)
